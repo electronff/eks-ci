@@ -8,8 +8,7 @@ on:
 
 jobs:
   build_push:
-    name: build-push
-    needs: 'terrascan_job'
+    name: codebuid
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
